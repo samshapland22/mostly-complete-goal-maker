@@ -12,6 +12,11 @@ h1 {
   margin: 0 0 0 1em;
 }
 
+textarea {
+  width: 300;
+  height: 150;
+}
+
 .app {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -24,6 +29,17 @@ h1 {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
+}
+
+form {
+  display: flex;
+  align-content: center;
+}
+
+textarea {
+  width: 250px;
+  height: 40px;
+  margin: 0;
 }
 
 button {
@@ -44,6 +60,16 @@ button {
 .small-button {
   font-size: 0.5em;
   background-color: rgb(175, 170, 125);
+}
+
+.complete-button {
+  font-size: 0.5em;
+  background-color: rgb(23, 200, 0);
+}
+
+.incomplete-button {
+  font-size: 0.5em;
+  background-color: #faf4e2;
 }
 
 button:hover {
